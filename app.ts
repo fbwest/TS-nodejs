@@ -7,6 +7,7 @@ import {runInterfaces} from "./interfaces";
 import {runTypeAssertion} from "./type_assertion";
 import {runGenerics} from "./generics";
 import {runMixins} from "./mixins";
+import {Personnel} from "./namespaces";
 
 if (typeof window === "object") {
 
@@ -26,3 +27,7 @@ console.log("\n   --- interfaces ---"); runInterfaces();
 console.log("\n   --- type assertion ---"); runTypeAssertion();*/
 //console.log("\n   --- generics ---"); runGenerics();
 console.log("\n   --- mixins ---"); runMixins();
+
+console.log("\n   --- namespaces ---");
+let manager = Personnel.Manager;
+let garry = new manager();
