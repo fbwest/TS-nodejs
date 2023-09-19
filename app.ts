@@ -6,6 +6,7 @@ import {runOop} from "./OOP";
 import {runInterfaces} from "./interfaces";
 import {runTypeAssertion} from "./type_assertion";
 import {runGenerics} from "./generics";
+import {runMixins} from "./mixins";
 
 if (typeof window === "object") {
 
@@ -23,4 +24,5 @@ console.log("\n   --- objects ---"); runObjects();
 console.log("\n   --- OOP ---"); runOop();
 console.log("\n   --- interfaces ---"); runInterfaces();
 console.log("\n   --- type assertion ---"); runTypeAssertion();*/
-console.log("\n   --- generics ---"); runGenerics();
+//console.log("\n   --- generics ---"); runGenerics();
+console.log("\n   --- mixins ---"); runMixins();
