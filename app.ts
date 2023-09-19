@@ -4,6 +4,7 @@ import {runArraysEnum} from "./arrays&enum";
 import {runObjects} from "./objects";
 import {runOop} from "./OOP";
 import {runInterfaces} from "./interfaces";
+import {runTypeAssertion} from "./type_assertion";
 
 if (typeof window === "object") {
 
@@ -20,3 +21,4 @@ console.log("\n   --- arrays & enums ---"); runArraysEnum();
 console.log("\n   --- objects ---"); runObjects();
 console.log("\n   --- OOP ---"); runOop();
 console.log("\n   --- interfaces ---"); runInterfaces();
+console.log("\n   --- type assertion ---"); runTypeAssertion();
