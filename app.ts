@@ -16,11 +16,11 @@ if (typeof window === "object") {
     header!.innerText = `Hello User!`;
 }
 
-console.log("\n   --- vars & types ---"); runVarsTypes();
+/*console.log("\n   --- vars & types ---"); runVarsTypes();
 console.log("\n   --- functions ---"); runFunctions();
 console.log("\n   --- arrays & enums ---"); runArraysEnum();
 console.log("\n   --- objects ---"); runObjects();
 console.log("\n   --- OOP ---"); runOop();
 console.log("\n   --- interfaces ---"); runInterfaces();
-console.log("\n   --- type assertion ---"); runTypeAssertion();
+console.log("\n   --- type assertion ---"); runTypeAssertion();*/
 console.log("\n   --- generics ---"); runGenerics();
