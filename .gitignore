@@ -1,0 +1,15 @@
+# Project exclude paths
+/app.js
+/app.js.map
+/arrays&enum.js
+/arrays&enum.js.map
+/functions.js
+/functions.js.map
+/interfaces.js
+/interfaces.js.map
+/objects.js
+/objects.js.map
+/OOP.js
+/OOP.js.map
+/vars&types.js
+/vars&types.js.map
