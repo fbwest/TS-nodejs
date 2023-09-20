@@ -1,11 +1,12 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "commonjs",
+    //"module": "commonjs",
     "target": "es2015",
     "sourceMap": true,
     "noEmitOnError": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "module": "ES6"
   },
   "exclude": [
     "node_modules"
