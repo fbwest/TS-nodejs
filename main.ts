@@ -11,3 +11,10 @@ helloPage();
 console.log(sum(5, 7));
 
 tom.print();
+
+for (let point of points) {
+    console.log(`Point with coordinates X = ${point.x}, Y = ${point.y}`);
+}
+
+let tim = new Person("Timmy", 1);
+tim.display();

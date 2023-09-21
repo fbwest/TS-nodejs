@@ -6,6 +6,39 @@
 </head>
 <body>
     <h2>Modules in TypeScript</h2>
+    <script>
+        let message = "Modules loaded";
+
+        function helloPage() {
+            console.log("Hello from page");
+        }
+
+        function sum(a, b) {
+            return a + b;
+        }
+
+        const tom = {
+            name: "Tommy",
+            age: 27,
+            print() {
+                console.log(`${this.name} is ${this.age} years old.`)
+            }
+        }
+
+        let points = [{x: 1, y: 2},
+                      {x: 5, y: 7},
+                      {x: 3, y: 9}];
+
+        class Person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+            display() {
+                console.log(this.name, this.age);
+            }
+        }
+    </script>
     <script type="module" src="main.js"></script>
 </body>
 </html>
