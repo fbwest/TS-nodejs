@@ -8,6 +8,7 @@ import {runTypeAssertion} from "./type_assertion";
 import {runGenerics} from "./generics";
 import {runMixins} from "./mixins";
 import * as personalData from "./namespaces";
+import {runDecorators} from "./decorators.js";
 
 if (typeof window === "object") {
 
@@ -26,7 +27,8 @@ console.log("\n   --- OOP ---"); runOop();
 console.log("\n   --- interfaces ---"); runInterfaces();
 console.log("\n   --- type assertion ---"); runTypeAssertion();*/
 //console.log("\n   --- generics ---"); runGenerics();
-console.log("\n   --- mixins ---"); runMixins();
-console.log("\n   --- namespaces ---");
-let manager = personalData.Personnel.Manager;
-let garry = new manager();
+//console.log("\n   --- mixins ---"); runMixins();
+//console.log("\n   --- namespaces ---");
+//let manager = personalData.Personnel.Manager;
+//let garry = new manager();
+console.log("\n   --- decorators ---"); runDecorators();
